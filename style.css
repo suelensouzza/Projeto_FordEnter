@@ -1,45 +1,132 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    text-decoration: none;
+    box-sizing: border-box;
 }
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
 }
 
-header{
-    background-color:#003366;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding: 20px 0;
-    margin: 20px;
-}
-
-header img{
-    max-height: 80px;
-}
-
-nav a{
-    color: white;
-    margin: 0 10px;
-    
-}
-
-main{
-    padding: 40px;
-    text-align: center;
-}
-
-footer{
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding: 15px;
+/* ---------------------Cabeçalho---------------------- */
+header {
     display: flex;
-    background-color: #000336;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px 50px;
 }
 
-.redes-sociais img{
+header img {
+    width: 100px;
+}
+
+/* Navegação */
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #003399;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+/* ---------------------------------MAIN--------------------------- */
+.inicio {
+    text-align: center;
+    margin: 30px auto;
+    max-width: 900px;
+}
+
+.inicio img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+}
+
+.inicio p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* ----------------------------LANCAMENTO------------------------------ */
+
+.yt {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 20px 0;
+    margin: 15px;
+}
+
+iframe {
+    width: 80%;
+    height: 500px;
+}
+
+.carros-anuncio {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.carros-anuncio1 {
+    width: 200px;
+    text-align: center;
+}
+
+.carros-anuncio1 img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.carros-anuncio1 p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.button2 {
+    margin-top: 40px;
+    padding: 12px 30px;
+    background-color: #003399;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button2:hover {
+    background-color: #001f66;
+}
+
+/* ----------------------------Rodapé------------------------------ */
+footer {
+    background-color: #000d3c;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;            
+    flex-wrap: wrap;
+}
+
+.redes-sociais,
+.redesocial {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.redes-sociais img {
     width: 24px;
-    margin: 0 5px;
+}
+
+.redesocial img {
+    width: 60px;
 }
