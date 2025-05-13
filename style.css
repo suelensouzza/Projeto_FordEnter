@@ -81,6 +81,7 @@ iframe {
 .anuncio {
     display: flex;
     justify-content: center;
+    margin: 0 100px;
 
 }
 .anuncio img {
@@ -118,6 +119,7 @@ iframe {
 }
 .carros img{
     width: 25px;
+    margin: 15px;
 }
 
 
@@ -136,9 +138,50 @@ iframe {
 }
 
 .button2:hover {
-    background-color: #144ed4;
+    background-color: #477bf5;
+}
+/* ----------------------------CONTATO------------------------------ */
+.contato{
+    display: flex;
+    justify-content: center;
+    margin: 80px 30px;
 }
 
+.formulario{
+    margin: 30px 50px;
+}
+
+.formulario1{
+    margin: 10px 20px;
+}
+h2{
+    margin: 10px 25px;
+}
+.botaun button{
+    background: #056dd4;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;   
+    margin: 5px 145px;
+    width: 180px;
+  }
+
+  .botaun button:hover {
+    background: #6db8ff;
+  }
+  
+  form input, select, option{
+    width: 300px;
+    height: 35px;
+    margin: 5px;
+    border-radius: 10px;
+    border: solid 1px grey;
+    color: grey;
+  }
+
+  
 /* ----------------------------Rodapé------------------------------ */
 footer {
     width: 100%;
@@ -148,7 +191,8 @@ footer {
     display: flex;
     justify-content: space-between; 
     align-items: center;            
-    
+    position: fixed;
+    bottom: 0;
 }
 
 .redes-sociais,
