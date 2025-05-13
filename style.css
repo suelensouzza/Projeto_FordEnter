@@ -5,18 +5,22 @@
 }
 
 body {
+     width: 100%;
+    height: 100%;
     font-family: Arial, sans-serif;
     background-color: #fff;
 }
 
 /* ---------------------Cabeçalho---------------------- */
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #ffffff;
-    padding: 10px 50px;
+    padding: 15px 20px;
     width: 100%;
+    
 }
 
 header img {
@@ -25,7 +29,7 @@ header img {
 
 /* Navegação */
 nav a {
-    margin: 0 15px;
+    margin: 0 24px;
     text-decoration: none;
     color: #003399;
     font-weight: bold;
@@ -33,7 +37,7 @@ nav a {
 }
 
 
-/* ---------------------------------MAIN--------------------------- */
+/* ---------------------------------HOME--------------------------- */
 .main{
     display: flex;
     margin-bottom: 30px;
@@ -41,17 +45,20 @@ nav a {
 
 .inicio {
     text-align: center;
-    margin: 30px auto;
+    margin: 50px auto;
     max-width: 900px;
 }
 
 .inicio img {
-    width: 100%;
+    width: 140%;
+    max-width: 900px;
+    height: auto;
+    display: block;
     border: 1px solid #ccc;
 }
 
 .inicio p {
-    margin-top: 10px;
+    margin-top: 30px;
     font-size: 16px;
     color: #333;
 }
@@ -62,8 +69,8 @@ nav a {
     display: flex;
     justify-content: center;
     background-color: black;
-    padding: 20px 0;
-    margin: 15px;
+    padding: 1px 0;
+    margin: 10px;
 }
 
 iframe {
@@ -77,23 +84,28 @@ iframe {
 
 }
 .anuncio img {
-    width: 90%;
+    width: 80%;
+    max-width: 250px;
     border-radius: 8px;
 }
+
 
 
 .imginicial{
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-.imginicial input{
-    width: 30px;
+    align-items:  center;
 }
 
+.carros input{
+    width: 40px;
+    height: 30px;
+ 
+}
 
 .carros img {
-    width: 20px;
+    width: 10px;
     height: 20px;
 }
 .carros p{
@@ -129,14 +141,14 @@ iframe {
 
 /* ----------------------------Rodapé------------------------------ */
 footer {
+    width: 100%;
     background-color: #000d3c;
     color: white;
-    padding: 20px;
+    padding: 15px 20px;
     display: flex;
     justify-content: space-between; 
     align-items: center;            
-    flex-wrap: wrap;
-    width: 100%;
+    
 }
 
 .redes-sociais,
@@ -154,3 +166,4 @@ footer {
 .redesocial img {
     width: 60px;
 }
+
